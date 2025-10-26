@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Offline - SSS Gruppe NFC</title>
+    <style>
+        :root {
+            --primary-color: #FF4337;
+            --secondary-color: #ECE200;
+            --background-color: #f8f9fa;
+            --text-color: #212529;
+            --surface-color: #ffffff;
+            --border-color: #dee2e6;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 0;
+            background-color: var(--background-color);
+            color: var(--text-color);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+            text-align: center;
+        }
+
+        .container {
+            max-width: 600px;
+            margin: 2rem;
+            padding: 2.5rem 3rem;
+            background-color: var(--surface-color);
+            border: 4px solid var(--secondary-color);
+            border-radius: 20px;
+            box-shadow: 0 0 0 4px var(--primary-color),
+                        0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 1rem;
+            font-weight: 700;
+        }
+
+        p {
+            font-size: 1.1rem;
+            color: #495057;
+            margin-bottom: 2rem;
+        }
+
+        .logo-placeholder {
+            font-size: 4rem;
+            font-weight: bold;
+            color: var(--primary-color);
+            margin-bottom: 1.5rem;
+            letter-spacing: 0.1em;
+        }
+        
+        @media (max-width: 480px) {
+            .container {
+                margin: 1rem;
+                padding: 2rem 1.5rem;
+            }
+            h1 {
+                font-size: 2rem;
+            }
+            p {
+                font-size: 1rem;
+            }
+            .logo-placeholder {
+                font-size: 3rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="logo-placeholder">SSS</div>
+        <h1>Sie sind offline</h1>
+        <p>Diese Seite konnte nicht geladen werden, da keine Netzwerkverbindung besteht. Bitte versuchen Sie es erneut, wenn Sie wieder online sind.</p>
+    </div>
+</body>
+</html>
+

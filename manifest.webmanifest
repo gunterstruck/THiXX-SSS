@@ -1,0 +1,24 @@
+{
+  "name": "SSS Gruppe NFC Tool",
+  "short_name": "SSS",
+  "start_url": "/THiXX-SSS/index.html",
+  "scope": "/THiXX-SSS/",
+  "display": "standalone",
+  "background_color": "#ffffff",
+  "theme_color": "#FF4337",
+  "orientation": "portrait-primary",
+  "icons": [
+    {
+      "src": "/THiXX-SSS/assets/SSS-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/THiXX-SSS/assets/SSS-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
